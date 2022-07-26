@@ -30,8 +30,6 @@ export default createStore({
             if (state.locked) {
                 state.locked = false
                 state.filterValue = state.brightness
-            } else {
-                state.locked = true
             }
         },
 
